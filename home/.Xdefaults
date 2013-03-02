@@ -1,0 +1,88 @@
+! Courtesy of tdy
+
+! <-- Xft rules -->
+Xft.dpi:			92
+Xft.antialias:			true
+Xft.hinting:			true
+Xft.hintstyle:			hintfull
+Xft.rgba:			rgb
+
+URxvt.font:			xft:terminus:pixelsize=15
+URxvt*scrollBar:		true
+URxvt*scrollstyle:		plain
+URxvt*scrollBar_right:		true
+URxvt*transpscrollbar:		true
+URxvt*scrollBar_floating:	true
+urxvt*saveLines:		32767
+urxvt*perl-lib:			/usr/lib/urxvt/perl/
+urxvt*perl-ext-common:		default,matcher
+urxvt*urlLauncher:		chromium
+urxvt*matcher.button:		1
+urxvt.colorUL:			#a9c9bc
+urxvt*cursorColor:		orange
+urxvt*cursorBlink:		true
+
+! <-- URxvt rules -->
+URxvt.perl-ext-common:		clipboard
+URxvt.keysym.Mod4-c:perl:	clipboard:copy
+URxvt.keysym.Mod4-v:perl:	clipboard:paste
+urxvt*title:			rxvt-256color
+urxvt*tintColor:		#aaaaaa
+urxvt*fading:			10
+urxvt*transparent:		false
+urxvt*trasparent:		true
+urxvt*pastableTabs:		true
+urxvt*jumpScroll:		true
+urxvt*secondaryScroll:		true
+urxvt*urgentOnBell:		true
+
+XTerm*faceName:terminus:	pixelsize=15
+xterm*saveLines:		32767
+xterm*borderLess:		true
+xterm*urlLauncher:		chromium
+xterm*tintColor:		red
+xterm*cursorColor:		orange
+xterm*cursorBlink:		true
+xterm*shading:			20
+xterm*fading:			10
+xterm*pastableTabs:		true
+xterm*jumpScroll:		true
+
+alsamixer*scrollBar:		false
+
+! <-- Colours -->
+*background:	#000000
+*foreground:	#b5b0ad
+
+! <-- black -->
+*color0:	#000000
+*color8:	#555555
+
+! <-- red -->
+*color1:	#AA0000
+*color9:	#FF5555
+
+! <-- green -->
+*color2:	#00AA00
+*color10:	#55FF55
+
+! <-- yellow -->
+*color3:	#AA5500
+*color11:	#FFFF55
+
+! <-- blue -->
+*color4:	#0000AA
+*color12:	#5555FF
+
+! <-- magenta -->
+*color5:	#AA00AA
+*color13:	#FF55FF
+
+! <-- cyan -->
+*color6:	#00AAAA
+*color14:	#55FFFF
+
+! <-- white -->
+*color7:	#AAAAAA
+*color15:	#FFFFFF
+
